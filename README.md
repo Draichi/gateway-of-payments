@@ -7,7 +7,7 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
@@ -15,14 +15,16 @@ npm install
 nodemon index.js
 
 ```
-## Create databse on mysql
-
-login in Mysql then:
-```bash
+## Create database on mysql
+>login in Mysql then:
+```sh
+# create database
 create database payfast;
 
+# change database
 use payfast;
 
+# create table
 create table pagamentos(id int(11) not null auto_increment, forma_de_pagamento varchar(255) not null, valor decimal(10,2) not null, moeda varchar (3) not null, status varchar(255) not null, data date, descricao text, primary key(id));
 
 ```
