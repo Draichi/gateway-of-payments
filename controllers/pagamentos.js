@@ -28,7 +28,7 @@ module.exports = function (app) {
                 res.status(500).send(erro);
 
             } else {
-                console.log('Pagamento Criado: ' + resultado);
+                console.log('Pagamento Criado');
                 res.location('/pagamentos/pagamento/'+resultado.insertId);
                 res.status(201).json(pagamento);
             }

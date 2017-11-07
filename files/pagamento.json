@@ -1,6 +1,6 @@
 {
     "forma_de_pagamento": "payfast",
-    "valor": 25.25,
-    "moeda": "BR",
-    "descricao": "segundo pagamento"
+    "valor": 200,
+    "moeda": "usd",
+    "descricao": "4 pagammento"
 }
